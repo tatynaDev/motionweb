@@ -1,0 +1,51 @@
+#studyPrograms{
+  background:#1A1A1C;
+  .studyPrograms--general{
+    h1{
+      font-family: 'Roboto',sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 36px;
+      color: #EC3025;
+      padding: 200px 500px 50px 500px;
+    }
+    h2{
+      font-family: 'Roboto',sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 102.61%;
+      color: #EC3025;
+      text-align: center;
+      margin: 50px 0;
+    }
+    p{
+      font-family: 'Roboto',sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 102.61%;
+      color: rgba(255, 255, 255, 0.8);
+      padding-bottom: 50px;
+      text-align: center;
+    }
+    button{
+      font-family: 'Roboto',sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 94.4%;
+      text-transform: capitalize;
+      color: #FFFFFF;
+      background: #EC3025;
+      border: 1px solid #FFFFFF;
+      border-radius: 5px;
+      padding: 15px 30px;
+      margin:0 500px 80px 550px;
+      transition: .4s;
+      &:hover{
+        transform: scale(1.1);
+      }
+    }
+  }
+}

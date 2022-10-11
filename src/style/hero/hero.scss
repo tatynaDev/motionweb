@@ -1,0 +1,51 @@
+#hero{
+  background: #1A1A1C;
+  padding-bottom: 200px;
+  .container{
+    .hero--general{
+      display: flex;
+      &__title{
+        h1{
+          width: 481px;
+          height: 188px;
+          font-family: 'PT Serif',sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 50px;
+          color: #FFFFFF;
+          padding: 200px 0 100px 0;
+        }
+        button{
+          font-family: 'Montserrat',sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          text-transform: uppercase;
+          color: #FFFFFF;
+          background: #EC3025;
+          padding: 15px 30px;
+          box-sizing: border-box;
+          border: 1px solid #FFFFFF;
+          transition: .4s;
+          &:hover{
+            transform: scale(1.1);
+          }
+        }
+      }
+       &__second-photo{
+         width: 50%;
+         position: absolute;
+         top: 150px;
+         right: 0;
+       }
+       &__square{
+         position: absolute;
+         background: white;
+         width: 435px;
+         height: 50px;
+         right: 0;
+         bottom: 49px;
+       }
+      }
+    }
+  }
